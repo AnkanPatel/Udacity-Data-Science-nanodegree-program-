@@ -45,4 +45,4 @@ This repo contains 4 files-
 2-data : portfolio.json, profile.json and transcript.json.
 
 
-You can find my blog in <img src="https://medium.com/@ankanpatel23/analyzing-starbucks-offers-data-35927832e0f1">
+You can find my blog HTML:<a href="https://medium.com/@ankanpatel23/analyzing-starbucks-offers-data-35927832e0f1">here</a>
