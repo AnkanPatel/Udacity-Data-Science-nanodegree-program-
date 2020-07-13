@@ -43,3 +43,6 @@ the overall revenue increase might justify the few mistakes.
 This repo contains 4 files-
 1.Starbucks_Capstone_notebook.ipynb
 2-data : portfolio.json, profile.json and transcript.json.
+
+
+You can find my blog in <img src="https://medium.com/@ankanpatel23/analyzing-starbucks-offers-data-35927832e0f1">
