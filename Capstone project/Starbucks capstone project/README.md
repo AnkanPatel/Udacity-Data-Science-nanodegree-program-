@@ -5,20 +5,20 @@ Starbucks Capstone Challenge: Using Starbucks app user data to predict effective
 ### 1.Installations
 we have used python3 and libraries such as:
 
- *pandas
- *numpy
- *math
- *json
- *time
- *sklearn.model_selection (GridSearchCV)
- *matplotlib
- *seaborn
- *sklearn.model_selection (train_test_split module)
- *sklearn.preprocessing (StandardScaler, PolynomialFeatures)
- *from sklearn.tree (DecisionTreeClassifier,DecisionTreeRegressor)
- *sklearn.ensemble (RandomForestClassifier)
- *sklearn.metrics (mean_squared_error,classification_report)
- *sklearn.linear_model (Ridge)
+*pandas
+*numpy
+*math
+*json
+*time
+*sklearn.model_selection (GridSearchCV)
+*matplotlib
+*seaborn
+*sklearn.model_selection (train_test_split module)
+*sklearn.preprocessing (StandardScaler, PolynomialFeatures)
+*from sklearn.tree (DecisionTreeClassifier,DecisionTreeRegressor)
+*sklearn.ensemble (RandomForestClassifier)
+*sklearn.metrics (mean_squared_error,classification_report)
+*sklearn.linear_model (Ridge)
  
 ### 2.Project Motivation
 As a part of the final project in udacity data science nanodegree program i have done this starbucks app user data to predict effective offers poroject.
@@ -29,7 +29,7 @@ In this project, I have used the data to answer 2 business questions:
 To answer the above 2 questions, I created 3 models for the data on the 3 offer types provided.
 The three offers are: Buy One Get One Free (BOGO), Discount (discount with purchase), and Informational (provides information about products).
 
-Summary:
+### Summary:
 For Question 1, the feature importance given by all 3 models were that the tenure of a member is the biggest predictor of the effectiveness of an offer.
 Further study would be able to indicate what average tenure days would result in an effective BOGO offer.
 
@@ -39,7 +39,7 @@ However, I would regard 75% as acceptable in a business setting, as for informat
 Meanwhile, an 80% and above accuracy in a business setting would be acceptable to show offers to people, even if the model misclassifies a few, 
 the overall revenue increase might justify the few mistakes.
 
-3. File Descriptions
+### 3.File Descriptions
 This repo contains 4 files-
 1.starbucks.ipynb
 2-data : portfolio.json, profile.json and transcript.json.
