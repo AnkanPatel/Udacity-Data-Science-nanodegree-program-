@@ -41,5 +41,5 @@ the overall revenue increase might justify the few mistakes.
 
 ### 3.File Descriptions
 This repo contains 4 files-
-1.starbucks.ipynb
+1.Starbucks_Capstone_notebook.ipynb
 2-data : portfolio.json, profile.json and transcript.json.
