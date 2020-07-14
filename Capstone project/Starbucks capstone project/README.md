@@ -20,29 +20,28 @@ we have used python3 and libraries such as:
 *sklearn.metrics (mean_squared_error,classification_report)
 *sklearn.linear_model (Ridge)
  
-### 2.Project Motivation
+### 2.Business Questions:
 As a part of the final project in udacity data science nanodegree program i have done this starbucks app user data to predict effective offers poroject.
-In this project, I have used the data to answer 2 business questions:
+In this project, I have tried to answer 2 business questions:
 
-1. What are the main drivers of an effective offer on the Starbucks app?
-2. Could the data provided, namely offer characteristics and user demographics, predict whether a user would take up an offer?
-To answer the above 2 questions, I created 3 models for the data on the 3 offer types provided.
-The three offers are: Buy One Get One Free (BOGO), Discount (discount with purchase), and Informational (provides information about products).
+1. An effective offer on the Starbucks app depends on which drivers?
+2. Could  whether a user would take up an offer or not be predicted using the data provided?
+To answer the above 2 questions, I have created a scenario which contains 3 models depending upon the  three offer types.
+The three offer types are:Discount (discount with purchase),Informational (provides information about products), Buy One Get One Free (BOGO).
 
 ### Summary:
-For Question 1, the feature importance given by all 3 models were that the tenure of a member is the biggest predictor of the effectiveness of an offer.
-Further study would be able to indicate what average tenure days would result in an effective BOGO offer.
+If we discuss about Question 1,then the feature importance given by all the three different models that we are using were from where we found that the tenure of a member is the biggest predictor of the effectiveness of an offer.
+On performing further operations we would be able to calculate the number of average tenure days as a result of an effective BOGO offer.
 
-For Question 2,my decision to use 3 separate models to predict the effectiveness of each offer type ended up with good accuracy for the 2 of the models
-(82.83% for BOGO and 87.35% for discount), while slightly less accurate performance for another informational offers (75.3%). 
-However, I would regard 75% as acceptable in a business setting, as for informational offers, there is no cost involved to inform users of a product.
-Meanwhile, an 80% and above accuracy in a business setting would be acceptable to show offers to people, even if the model misclassifies a few, 
-the overall revenue increase might justify the few mistakes.
+If we discuss aboutr Question 2,I have uesd 3 different models to predict the effectiveness of each offer type and i got a good accuracy value for 2 of the models
+(87.35% for discount and 82.83% for BOGO), while in other model there is a slightly accurate performance that is in informational offers (75.3%). 
+However, I think 75% as acceptable in a business setting, as for informational offers.
+Meanwhile, an 80% and above accuracy in a business setting is better to show offers to people.
 
 ### 3.File Descriptions
 This repo contains 4 files-
 1.Starbucks_Capstone_notebook.ipynb
-2-data : portfolio.json, profile.json and transcript.json.
+2-data : data.zip(portfolio.json, profile.json and transcript.json)(as the size of ine of the file is bigger so i have used it as a zip)
 
 
 You can find my blog <a href="https://medium.com/@ankanpatel23/analyzing-starbucks-offers-data-35927832e0f1">here</a>
