@@ -42,6 +42,7 @@ Meanwhile, an 80% and above accuracy in a business setting is better to show off
 This repo contains 4 files-
 1.Starbucks_Capstone_notebook.ipynb
 2-data : data.zip(portfolio.json, profile.json and transcript.json)(as the size of ine of the file is bigger so i have used it as a zip)
+3-images(pic-1,pic-2)
 
 
 You can find my blog <a href="https://medium.com/@ankanpatel23/analyzing-starbucks-offers-data-35927832e0f1">here</a>
