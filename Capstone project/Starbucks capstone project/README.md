@@ -40,8 +40,11 @@ Meanwhile, an 80% and above accuracy in a business setting is better to show off
 
 ### 3.File Descriptions
 This repo contains 4 files-
+
 1.Starbucks_Capstone_notebook.ipynb
+
 2-data : data.zip(portfolio.json, profile.json and transcript.json)(as the size of ine of the file is bigger so i have used it as a zip)
+
 3-images(pic-1,pic-2)
 
 
